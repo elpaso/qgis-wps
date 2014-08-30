@@ -1,0 +1,34 @@
+[general]
+name=WPS
+qgisMinimumVersion=2.5
+qgisMaximumVersion=2.99
+description=This is a test WPS plugin for the QGIS MapServer
+version=version 1.0
+author=Alessandro Pasotti
+email=apasotti@gmail.com
+service=WPS
+methods=GetCapabilities,DescribeProcess,Execute
+
+changelog=this is a very
+    very<br/>
+    very
+    very
+    very
+    very long multiline changelog
+
+
+tags=  WPS, server
+
+tracker=http://bugs.itopen.it/changed
+homepage=http://www.itopen.it/changed
+repository=http://www.itopen.it/changedrepo
+
+category=web
+
+experimental=False
+
+about=WPS server
+
+
+; change icon...
+icon=icons/icon.png
